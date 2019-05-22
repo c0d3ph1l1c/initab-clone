@@ -1,0 +1,182 @@
+/* Navigation */
+.navigation {
+  background: #44475A;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 20px 10px;
+  width: 140px;
+}
+
+.navigation a:hover {
+  text-decoration: none;
+}
+
+.navigation p {
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+
+.navigation i {
+  border-radius: 10%;
+  font-size: 12px;
+  color: #44475A;
+  box-sizing: border-box;
+  padding: 4px 0;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.fa-wrench {
+  background: #a9e7fc;
+}
+
+.settings {
+  color: #a9e7fc;
+}
+
+.fa-code {
+  background: #7cf458;
+}
+
+.gists {
+  color: #7cf458;
+}
+
+.fa-stack-overflow {
+  background: #f4c20c;
+}
+
+.stack-overflow {
+  color: #f4c20c;
+}
+
+.fa-chart-line {
+  background: #e863d8;
+}
+
+.trending {
+  color: #e863d8;
+}
+
+.fa-pencil-alt {
+  background: #cb85db;
+}
+
+.scratch-pad {
+  color: #cb85db;
+}
+
+.fa-lightbulb {
+  background: white;
+}
+
+.playground {
+  color: white;
+}
+
+i.fa-lock {
+  color: white;
+  margin-right: 0;
+}
+
+.fa-question {
+  background: #efd75f;
+}
+
+.help {
+  color: #efd75f;
+}
+
+.initab-logo {
+  max-width: 100px;
+  height: auto;
+  position: absolute;
+  bottom: 56px;
+  left: 18px;
+}
+
+i.social {
+  color: white;
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  padding: 6px;
+  font-size: 11px;
+  position: absolute;
+  bottom: 18px;
+  text-align: center;
+}
+
+i.fa-facebook-f{
+  background: #5D7CB3;
+  left: 10px;
+}
+
+i.fa-linkedin-in{
+  background: #0077B5;
+  left: 42px;
+}
+
+i.fa-twitter {
+  background: #1C9CE7;
+  left: 74px;
+}
+
+i.fa-reddit-alien {
+  background: #A5B6FA;
+  left: 106px;
+}
+
+/* Content */
+
+.row {
+  background: #202936;
+  margin-left: 140px;
+  margin-right: 0;
+}
+
+.left, .center, .right {
+  padding-top: 40px;
+  height: 100vh;
+}
+
+.left {
+  /* height: 100%;
+  width: 100%; */
+  overflow: scroll;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.left::-webkit-scrollbar {
+  display: none;
+}
+
+.center {
+}
+
+.right {
+}
+
+.description {
+  color: #a9e7fc;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.description > i {
+  background: #202936;
+  color: #a9e7fc;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.feed-title-style {
+  text-decoration: none;
+  color: white;
+}

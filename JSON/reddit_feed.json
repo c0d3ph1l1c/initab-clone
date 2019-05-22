@@ -1,0 +1,179 @@
+{
+  "feeds": [
+    {
+      "title":"Managing a Secure JSON Web Token Implementation",
+      "postBy": "u/FanielDanara",
+      "score": "82",
+      "link":"https://cursorblog.com/managing-a-secure-json-web-token-implementation/",
+      "comment":"http://reddit.com/r/javascript/comments/briwmi/managing_a_secure_json_web_token_implementation/"
+    },
+    {
+      "title":"NaN can be used as an array index",
+      "postBy": "u/FavoriteColorFlavor",
+      "score": "24",
+      "link":"https://www.reddit.com/r/javascript/comments/brjxab/nan_can_be_used_as_an_array_index/",
+      "comment":""
+    },
+    {
+      "title":"JavaScript Clean Code - Best Practices - based on Robert C. Martin's book Clean Code",
+      "postBy": "u/PMilos",
+      "score": "6",
+      "link":"https://devinduct.com/blogpost/22/javascript-clean-code-best-practices",
+      "comment":"http://reddit.com/r/javascript/comments/brm8dg/javascript_clean_code_best_practices_based_on/"
+    },
+    {
+      "title":"Test Automation Analytics using Cube.js",
+      "postBy": "u/ekbduffy",
+      "score": "30",
+      "link":"https://medium.com/quick-code/test-automation-analytics-using-cube-js-e3ee0fa84981",
+      "comment":"http://reddit.com/r/javascript/comments/brco43/test_automation_analytics_using_cubejs/"
+    },
+    {
+      "title":"Jsdoc Documentation",
+      "postBy": "u/raccoonranger73",
+      "score": "2",
+      "link":"https://www.reddit.com/r/javascript/comments/brlqdq/jsdoc_documentation/",
+      "comment":""
+    },
+    {
+      "title":"JAVA Training in Bhandup | Learn all about JAVA programming",
+      "postBy": "u/livewireindia",
+      "score": "0",
+      "link":"https://www.livewireindia.com/blog/java-training%EF%BB%BF-livewire-bhandup/",
+      "comment":"http://reddit.com/r/javascript/comments/brmynz/java_training_in_bhandup_learn_all_about_java/"
+    },
+    {
+      "title":"Full Stack Fest - 4-6 September in Sitges, Barcelona",
+      "postBy": "u/txustice",
+      "score": "1",
+      "link":"https://www.reddit.com/r/javascript/comments/brmvi8/full_stack_fest_46_september_in_sitges_barcelona/",
+      "comment":""
+    },
+    {
+      "title":"RSS Search Engine - Like google but for RSS",
+      "postBy": "u/davidesantangelo",
+      "score": "1",
+      "link":"https://www.reddit.com/r/javascript/comments/brme8t/rss_search_engine_like_google_but_for_rss/",
+      "comment":""
+    },
+    {
+      "title":"Extract HTML element as PDF .",
+      "postBy": "u/liaguris",
+      "score": "0",
+      "link":"https://www.reddit.com/r/javascript/comments/brmccj/extract_html_element_as_pdf/",
+      "comment":""
+    },
+    {
+      "title":"redux-immer is used to create an equivalent function of Redux combineReducers that works with immer state.",
+      "postBy": "u/salvoravida",
+      "score": "1",
+      "link":"https://www.reddit.com/r/javascript/comments/brm4ic/reduximmer_is_used_to_create_an_equivalent/",
+      "comment":""
+    },
+    {
+      "title":"ETL Tools For Node.js - Overview",
+      "postBy": "u/thumbsdrivesmecrazy",
+      "score": "0",
+      "link":"https://www.reddit.com/r/javascript/comments/brm0do/etl_tools_for_nodejs_overview/",
+      "comment":""
+    },
+    {
+      "title":"WebGL Fluid Simulation",
+      "postBy": "u/magenta_placenta",
+      "score": "585",
+      "link":"https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
+      "comment":"http://reddit.com/r/javascript/comments/br16u9/webgl_fluid_simulation/"
+    },
+    {
+      "title":"Quiz app with vuejs and nativescript",
+      "postBy": "u/kidz55",
+      "score": "3",
+      "link":"https://www.reddit.com/r/javascript/comments/brge4i/quiz_app_with_vuejs_and_nativescript/",
+      "comment":""
+    },
+    {
+      "title":"How to Easily Share Reusable Modules in Node.js- at Scale (Hackernoon)",
+      "postBy": "u/JSislife",
+      "score": "13",
+      "link":"https://hackernoon.com/how-to-easily-share-reusable-modules-in-node-js-at-scale-daaab9f0f41d",
+      "comment":"http://reddit.com/r/javascript/comments/brc6i4/how_to_easily_share_reusable_modules_in_nodejs_at/"
+    },
+    {
+      "title":"Question",
+      "postBy": "u/Nostalgic_NukeZ",
+      "score": "1",
+      "link":"https://www.reddit.com/r/javascript/comments/brkup0/question/",
+      "comment":""
+    },
+    {
+      "title":"Can someone explain to me why I am getting this not defined error?",
+      "postBy": "u/mrTang5544",
+      "score": "0",
+      "link":"https://www.reddit.com/r/javascript/comments/brklsy/can_someone_explain_to_me_why_i_am_getting_this/",
+      "comment":""
+    },
+    {
+      "title":"Reading Client-Side Files for Validation with Vue.js",
+      "postBy": "u/philnash",
+      "score": "1",
+      "link":"https://www.raymondcamden.com/2019/05/21/reading-client-side-files-for-validation-with-vuejs",
+      "comment":"http://reddit.com/r/javascript/comments/brhmns/reading_clientside_files_for_validation_with_vuejs/"
+    },
+    {
+      "title":"My 11 year old son wrote a game in Javascript, and you can play it online now!",
+      "postBy": "u/AppledogHu",
+      "score": "14",
+      "link":"https://www.reddit.com/r/javascript/comments/br7uhu/my_11_year_old_son_wrote_a_game_in_javascript_and/",
+      "comment":""
+    },
+    {
+      "title":"Python-like list/array operator in JavaScript",
+      "postBy": "u/EvoNext",
+      "score": "3",
+      "link":"https://medium.com/@kulak/python-like-list-array-operator-in-javascript-1f17aea32ed2?source=friends_link&amp;sk=46eb6c92eea0915a843533cd88f74bef",
+      "comment":"http://reddit.com/r/javascript/comments/br970j/pythonlike_listarray_operator_in_javascript/"
+    },
+    {
+      "title":"Cutting our webpack build times in half",
+      "postBy": "u/Terrible_dev",
+      "score": "122",
+      "link":"https://www.cargurus.dev/Cutting-our-webpack-build-time-in-half/",
+      "comment":"http://reddit.com/r/javascript/comments/bqwfhw/cutting_our_webpack_build_times_in_half/"
+    },
+    {
+      "title":"Learn: Creational Patterns in ES6+ using Game of Thrones",
+      "postBy": "u/thecreazy",
+      "score": "3",
+      "link":"https://medium.com/javascript-by-doing/learn-creational-patterns-in-es6-using-game-of-thrones-4444119cda84",
+      "comment":"http://reddit.com/r/javascript/comments/br734s/learn_creational_patterns_in_es6_using_game_of/"
+    },
+    {
+      "title":"A lightweight starting template to use Typescript with ExpressJS with no bells and whistles.",
+      "postBy": "u/trexreturns",
+      "score": "4",
+      "link":"https://github.com/akhilrex/typescript-express-starter-template",
+      "comment":"http://reddit.com/r/javascript/comments/br73oa/a_lightweight_starting_template_to_use_typescript/"
+    },
+    {
+      "title":"React Hooks – Learn by building a Notes app",
+      "postBy": "u/R0rshrk",
+      "score": "7",
+      "link":"https://blog.flexiple.com/react-hooks-learn-by-building-a-notes-app/",
+      "comment":"http://reddit.com/r/javascript/comments/br5u93/react_hooks_learn_by_building_a_notes_app/"
+    },
+    {
+      "title":"Svelte takes the best of React and the best of Vue to make something awesome",
+      "postBy": "u/js_dom",
+      "score": "4",
+      "link":"https://swizec.com/blog/svelte-takes-the-best-of-react-and-the-best-of-vue-to-make-something-awesome/swizec/9089",
+      "comment":"http://reddit.com/r/javascript/comments/br4ldf/svelte_takes_the_best_of_react_and_the_best_of/"
+    },
+    {
+      "title":"Fetch vs Axios.js for making HTTP requests",
+      "postBy": "u/renishb",
+      "score": "2",
+      "link":"https://medium.com/@thejasonfile/fetch-vs-axios-js-for-making-http-requests-2b261cdd3af5",
+      "comment":"http://reddit.com/r/javascript/comments/br7rdg/fetch_vs_axiosjs_for_making_http_requests/"
+    }
+  ]
+}
