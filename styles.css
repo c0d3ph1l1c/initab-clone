@@ -145,8 +145,6 @@ i.fa-reddit-alien {
 }
 
 .left {
-  /* height: 100%;
-  width: 100%; */
   overflow: scroll;
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
@@ -164,7 +162,8 @@ i.fa-reddit-alien {
 
 .description {
   color: #a9e7fc;
-  font-size: 14px;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -175,6 +174,13 @@ i.fa-reddit-alien {
   font-size: 16px;
   margin-right: 5px;
 }
+
+.content-font {
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+}
+
+/* Reddit News Feed */
 
 .reddit-feed {
   border-style: none none none solid;
@@ -189,8 +195,6 @@ i.fa-reddit-alien {
 }
 
 .feed-link {
-  font-family: "Inconsolata", monospace;
-  font-size: 14px;
   text-decoration: none;
 }
 
@@ -227,4 +231,48 @@ i.fa-reddit-alien {
 
 .feed-comments:hover {
   color: #66D9EF;
+}
+
+/* Javascript History */
+
+.javascript-history {
+  border-style: none none solid none;
+  border-bottom-color: #44475A;
+  border-width: thin;
+  height: 48%;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.javascript-history::-webkit-scrollbar {
+  display: none;
+}
+
+.js-history {
+  margin-bottom: 20px;
+}
+
+.history-link {
+  color: #6272A4;
+  text-decoration: none;
+}
+
+.history-link:hover {
+  color: #F1FA8C;
+  text-decoration: none;
+}
+
+.history-favicon {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 15%;
+  border-color: #7cf458;
+  background: white;
+  margin-right: 10px;
+}
+
+.history-time {
+  color: #999999;
+  float: right;
 }

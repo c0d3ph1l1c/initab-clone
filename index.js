@@ -7,7 +7,7 @@ $(".initab-logo").hover(function() {
   $(".initab-logo").attr("src", "images/initab_logo.svg");
 });
 
-// Read file
+// JSON parser
 function parseJSON(file, callback) {
     const f = new XMLHttpRequest();
     f.open("GET", file, true);
@@ -20,8 +20,8 @@ function parseJSON(file, callback) {
     };
     f.send(null);
 }
-parseJSON("JSON/reddit_feed.json", updateRedditFeeds);
 
+// Update Reddit News Feed
 function updateRedditFeeds(json) {
   let feeds = json.feeds;
   feeds.forEach(function(feed) {
@@ -30,7 +30,7 @@ function updateRedditFeeds(json) {
     const score = feed.score;
     const link = feed.link;
     const comment = feed.comment;
-    const html = "<div class=\"reddit-feed\"><a class=\"feed-link\" href=\"" +
+    const html = "<div class=\"reddit-feed content-font\"><a class=\"feed-link\" href=\"" +
                   link + "\"><p class=\"feed-title\">" +
                   title +
                  "</p><p><span class=\"posted-by\">Posted by: </span>" +
@@ -42,8 +42,29 @@ function updateRedditFeeds(json) {
                  (comment.length == 0?
                   "</a></div>":
                   "</a><a class=\"feed-comments\" href=\"" + comment +"\">Link to Comments</a></div>");
-    console.log(html);
     $(".left").append(html);
-
   });
 }
+parseJSON("JSON/reddit_feed.json", updateRedditFeeds);
+
+// Update Javascript History
+function updateJSHistory(json) {
+  let histories = json.history;
+  histories.forEach(function(history) {
+    const link = history.link;
+    const favicon = history.favicon;
+    const title = history.title;
+    const time = history.time;
+    const html = "<div class=\"js-history content-font\"><a class=\"history-link\" href=\"" +
+                  link +
+                  "\"><img class=\"history-favicon\" src=\"" +
+                  favicon +
+                  "\">" +
+                  title +
+                  "</a><span class=\"history-time\">" +
+                  time +
+                  "</span></div>";
+    $(".javascript-history").append(html);
+  });
+}
+parseJSON("JSON/js_history.json", updateJSHistory);
