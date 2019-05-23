@@ -30,20 +30,20 @@ function updateRedditFeeds(json) {
     const score = feed.score;
     const link = feed.link;
     const comment = feed.comment;
-    const html = "<a class=\"reddit-feed\" href=\"" +
+    const html = "<div class=\"reddit-feed\"><a class=\"feed-link\" href=\"" +
                   link + "\"><p class=\"feed-title\">" +
                   title +
-                 "</p><p class=\"feed-author\">Posted by: " +
+                 "</p><p><span class=\"posted-by\">Posted by: </span>" +
+                 "<span class=\"feed-author\">" +
                   author +
-                 "</p><p class=\"feed-score\">Reddit Score: " +
+                 "</span></p><p class=\"feed-score\">Reddit Score: " +
                   score +
                  "</p>" +
                  (comment.length == 0?
-                  "</a>":
-                  "<a class=\"feed-comments\" href=\"" + comment +"\">Link to Comments</a></a>");
+                  "</a></div>":
+                  "</a><a class=\"feed-comments\" href=\"" + comment +"\">Link to Comments</a></div>");
     console.log(html);
     $(".left").append(html);
 
   });
-  $(".feed-title").addClass("feed-title-style");
 }

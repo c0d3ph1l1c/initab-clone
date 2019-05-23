@@ -31,11 +31,11 @@
 }
 
 .fa-wrench {
-  background: #a9e7fc;
+  background: #66D9EF;
 }
 
 .settings {
-  color: #a9e7fc;
+  color: #66D9EF;
 }
 
 .fa-code {
@@ -55,11 +55,11 @@
 }
 
 .fa-chart-line {
-  background: #e863d8;
+  background: #FF79C6;
 }
 
 .trending {
-  color: #e863d8;
+  color: #FF79C6;
 }
 
 .fa-pencil-alt {
@@ -84,11 +84,11 @@ i.fa-lock {
 }
 
 .fa-question {
-  background: #efd75f;
+  background: #F1FA8C;
 }
 
 .help {
-  color: #efd75f;
+  color: #F1FA8C;
 }
 
 .initab-logo {
@@ -176,7 +176,55 @@ i.fa-reddit-alien {
   margin-right: 5px;
 }
 
-.feed-title-style {
+.reddit-feed {
+  border-style: none none none solid;
+  border-left-color: #44475A;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+
+.reddit-feed:hover {
+  border-left-color: #7cf458;
+}
+
+.feed-link {
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
   text-decoration: none;
+}
+
+.feed-link:hover {
+  text-decoration: none;
+}
+
+.feed-link p {
+  margin-bottom: 0;
+}
+
+.feed-title {
   color: white;
+}
+
+.posted-by {
+  color: #66D9EF;
+}
+
+.feed-author {
+  color: #F1FA8C;
+}
+
+.feed-score {
+  color: #6272A4;
+}
+
+.feed-comments {
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+  color: #FF79C6;
+  text-decoration: underline;
+}
+
+.feed-comments:hover {
+  color: #66D9EF;
 }
