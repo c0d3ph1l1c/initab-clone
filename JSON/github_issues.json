@@ -1,0 +1,64 @@
+{
+  "issues": [
+    {
+      "link": "https://github.com/GoogleChrome/puppeteer/issues/4466",
+      "repo": "GoogleChrome/puppeteer",
+      "number": "4466",
+      "title": "pagr.click interface broken refuses to function"
+    },
+    {
+      "link": "https://github.com/GoogleChrome/puppeteer/issues/4465",
+      "repo": "GoogleChrome/puppeteer",
+      "number": "4465",
+      "title": "Q: What is the recommend way to access a content script's execution context?"
+    },
+    {
+      "link": "https://github.com/GoogleChrome/puppeteer/issues/4463",
+      "repo": "GoogleChrome/puppeteer",
+      "number": "4463",
+      "title": "(node:96814) UnhandledPromiseRejectionWarning: TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded"
+    },
+    {
+      "link": "https://github.com/GoogleChrome/puppeteer/issues/4460",
+      "repo": "GoogleChrome/puppeteer",
+      "number": "4460",
+      "title": "Large html strings (over 1 million) do not return on 1.1.0 and crash anything newer with page crashed!"
+    },
+    {
+      "link": "https://github.com/GoogleChrome/puppeteer/issues/4458",
+      "repo": "GoogleChrome/puppeteer",
+      "number": "4458",
+      "title": "Calling same puppeteer function twice is resulting Session closed. Most likely the page has been closed"
+    },
+    {
+      "link": "https://github.com/apollographql/graphql-tag/issues/259",
+      "repo": "apollographql/graphql-tag",
+      "number": "259",
+      "title": "Any hopes or suggestions for use with Rollup? "
+    },
+    {
+      "link": "https://github.com/apollographql/graphql-tag/issues/252",
+      "repo": "apollographql/graphql-tag",
+      "number": "252",
+      "title": "/app/node_modules/graphql-tag/index\"' has no exported member 'enableExperimentalFragmentVariables'."
+    },
+    {
+      "link": "https://github.com/apollographql/graphql-tag/issues/250",
+      "repo": "apollographql/graphql-tag",
+      "number": "250",
+      "title": "[graphql-tag/loader] Allow importing query strings directly"
+    },
+    {
+      "link": "https://github.com/apollographql/graphql-tag/issues/249",
+      "repo": "apollographql/graphql-tag",
+      "number": "249",
+      "title": "[graphql-tag/loader] It is really necessary to emit so much runtime code in each file"
+    },
+    {
+      "link": "https://github.com/apollographql/graphql-tag/issues/237",
+      "repo": "apollographql/graphql-tag",
+      "number": "237",
+      "title": "[Proposal] Support combined fragment inclusion and spread"
+    }
+  ]
+}
