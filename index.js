@@ -68,3 +68,26 @@ function updateJSHistory(json) {
   });
 }
 parseJSON("JSON/js_history.json", updateJSHistory);
+
+// Update Date-Time
+function updateDateTime() {
+  const now = new Date();
+  $(".hour").text(now.getHours()>12?
+                    now.getHours()-12 :
+                    (now.getHours() === 0? 12: now.getHours()));
+  $(".minute").text(String(now.getMinutes()).length === 1?
+                      "0"+now.getMinutes() :
+                      now.getMinutes());
+  $(".am-pm").text(now.getHours()<12? "AM" : "PM");
+  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  $(".month").text(months[now.getMonth()]);
+  $(".day").text(now.getDate());
+  $(".year").text(now.getYear()+1900);
+  setTimeout(updateDateTime, 500);
+}
+updateDateTime();
+
+// Custom Links Hint
+$(".hide-hint").click(function() {
+  $(".hint").addClass("hidden");
+});

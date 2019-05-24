@@ -276,3 +276,75 @@ i.fa-reddit-alien {
   color: #999999;
   float: right;
 }
+
+/* Date-Time */
+
+.date-time {
+  color: #6272A4;
+  text-align: center;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.time {
+  font-size: 120px;
+  margin-bottom: 0;
+  height: 150px;
+}
+
+.am-pm {
+  font-size: 32px;
+}
+
+.date {
+  font-size: 20px;
+}
+
+.date-time i {
+  background: #FFB86C;
+  border-radius: 50%;
+  color: #202936;
+}
+
+.date-time i.fa-question {
+  font-size: 12px;
+  padding: 2px;
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+}
+
+.hint {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.date-time button {
+  border: none;
+  background: #202936;
+  color: #FFB86C;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.date-time button:active {
+  outline: none;
+}
+
+.date-time i.fa-times {
+  font-size: 7px;
+  padding: 2px;
+  width: 11px;
+  height: 11px;
+  vertical-align: text-top;
+}
+
+.hidden {
+  visibility: hidden;
+}
