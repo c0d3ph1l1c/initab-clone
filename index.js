@@ -87,6 +87,15 @@ function updateDateTime() {
 }
 updateDateTime();
 
+// Reposition Date-Time
+$(window).resize(repositionDateTime);
+repositionDateTime();
+function repositionDateTime() {
+  let newBottom = 100*$(window).height()/370-154;
+  newBottom = newBottom>100? 100:newBottom;
+  $(".date-time").css("bottom", newBottom+"px");
+}
+
 // Custom Links Hint
 $(".hide-hint").click(function() {
   $(".hint").addClass("hidden");

@@ -7,6 +7,7 @@
   bottom: 0;
   padding: 20px 10px;
   width: 140px;
+  font-family: "Arial","Helvetica","sans-serif";
 }
 
 .navigation a:hover {
@@ -14,7 +15,7 @@
 }
 
 .navigation p {
-  font-size: 11px;
+  font-size: 10px;
   margin-bottom: 20px;
 }
 
@@ -235,7 +236,7 @@ i.fa-github {
   border-style: none none solid none;
   border-bottom-color: #44475A;
   border-width: thin;
-  height: 48%;
+  height: 47%;
   overflow: scroll;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -280,7 +281,6 @@ i.fa-github {
   text-align: center;
   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
   position: absolute;
-  bottom: 100px;
   left: 0;
   right: 0;
   margin: auto;
