@@ -61,9 +61,9 @@ function updateJSHistory(json) {
                   favicon +
                   "\">" +
                   title +
-                  "</a><span class=\"history-time\">" +
+                  "</a><p class=\"history-time\">" +
                   time +
-                  "</span></div>";
+                  "</p></div>";
     $(".javascript-history").append(html);
   });
 }
@@ -91,3 +91,112 @@ updateDateTime();
 $(".hide-hint").click(function() {
   $(".hint").addClass("hidden");
 });
+
+// Switch Github-Gitlab
+let isGithub = true;
+let isGithubIssues = true;
+let isGitlabIssues = true;
+
+$(".switch-git").click(function() {
+  isGithub = !isGithub;
+  if(isGithub) {
+    $(".git-history>.description").html("<i class=\"fab fa-github-alt\"></i>GITHUB ISSUES HISTORY");
+    $(".switch-git").text("switch to gitlab");
+    $(".pull-merge").html("<p>PULL REQUESTS</p><i class=\"pull-merge-caret pull-merge-caret-github hidden-caret fas fa-caret-up\">");
+    trackCaret(isGithubIssues);
+  } else {
+    $(".git-history>.description").html("<i class=\"fab fa-gitlab\"></i>GITLAB ISSUES HISTORY");
+    $(".switch-git").text("switch to github");
+    $(".pull-merge").html("<p>MERGE REQUESTS</p><i class=\"pull-merge-caret pull-merge-caret-github hidden-caret fas fa-caret-up\">");
+    trackCaret(isGitlabIssues);
+  }
+});
+
+function trackCaret(isGitIssues) {
+  if(isGitIssues) {
+    $(".issues-caret").removeClass("hidden-caret");
+    $(".pull-merge-caret").addClass("hidden-caret");
+    if(isGithub) {
+      parseJSON("JSON/github_issues.json", updateIssues);
+    } else {
+      parseJSON("JSON/gitlab_issues.json", updateIssues);
+    }
+  } else {
+    $(".issues-caret").addClass("hidden-caret");
+    $(".pull-merge-caret").removeClass("hidden-caret");
+    if(isGithub) {
+      parseJSON("JSON/github_pull_requests.json", updatePullMergeRequests);
+    } else {
+      parseJSON("JSON/gitlab_merge_requests.json", updatePullMergeRequests);
+    }
+  }
+}
+
+// Switch Issues - Pull-Merge-Requests
+$(".issues").click(function() {
+  if(isGithub) {
+    isGithubIssues = true;
+    parseJSON("JSON/github_issues.json", updateIssues);
+  } else {
+    isGitlabIssues = true;
+    parseJSON("JSON/gitlab_issues.json", updateIssues);
+  }
+  $(".issues-caret").removeClass("hidden-caret");
+  $(".pull-merge-caret").addClass("hidden-caret");
+});
+$(".pull-merge").click(function() {
+  if(isGithub) {
+    isGithubIssues = false;
+    parseJSON("JSON/github_pull_requests.json", updatePullMergeRequests);
+  } else {
+    isGitlabIssues = false;
+    parseJSON("JSON/gitlab_merge_requests.json", updatePullMergeRequests);
+  }
+  $(".issues-caret").addClass("hidden-caret");
+  $(".pull-merge-caret").removeClass("hidden-caret");
+});
+
+// Initialize Git Issues
+function updateIssues(json) {
+  $("div").remove(".git-entry");
+  let issues = json.issues;
+  issues.forEach(function(issue) {
+    const link = issue.link;
+    const repo = issue.repo;
+    const number = issue.number;
+    const title = issue.title;
+    const html = "<div class=\"git-entry content-font\"><a class=\"github-issue-link\" href=\"" +
+                  link + "\"><p class=\"issue-repo\">Repo: " +
+                  repo +
+                 "</p><p class=\"issue-number\">Issue #" +
+                  number +
+                 "</p><p class=\"issue-title\">" +
+                  title +
+                 "</p></a></div>";
+    $(".git-history").append(html);
+  });
+}
+parseJSON("JSON/github_issues.json", updateIssues);
+
+
+// Update Git Pull Request
+function updatePullMergeRequests(json) {
+  $("div").remove(".git-entry");
+  let requests = json.requests;
+  requests.forEach(function(request) {
+    const link = request.link;
+    const repo = request.repo;
+    const number = request.number;
+    const title = request.title;
+    const html = "<div class=\"git-entry content-font\"><a class=\"github-request-link\" href=\"" +
+                  link + "\"><p class=\"request-repo\">Repo: " +
+                  repo +
+                 "</p><p class=\"request-number\">" +
+                 (isGithub? "Pull Request #" : "Merge Request !") +
+                  number +
+                 "</p><p class=\"request-title\">" +
+                  title +
+                 "</p></a></div>";
+    $(".git-history").append(html);
+  });
+}

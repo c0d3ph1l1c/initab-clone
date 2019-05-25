@@ -1,0 +1,64 @@
+{
+  "issues": [
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/issues/62315",
+      "repo": "GitLab Community Edition",
+      "number": "62315",
+      "title": "Links to notes in collapsed discussions in the same issue / MR don't work"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/issues/62314",
+      "repo": "GitLab Community Edition",
+      "number": "62314",
+      "title": "Display the size of additional data being added in the merge request (including git LFS files)"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/issues/62313",
+      "repo": "GitLab Community Edition",
+      "number": "62313",
+      "title": "URLs have unnecessary trailing `#`"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/issues/62312",
+      "repo": "GitLab Community Edition",
+      "number": "62312",
+      "title": "Left sidebar drop-down menu not displaying on small windows"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/issues/62311",
+      "repo": "GitLab Community Edition",
+      "number": "62311",
+      "title": "Live Chat and/or MA to Lower the Barrier to First Contribution"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/issues/62310",
+      "repo": "GitLab Community Edition",
+      "number": "62310",
+      "title": "Docs feedback: Broken link on Dependency Scanning example page"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/issues/62309",
+      "repo": "GitLab Community Edition",
+      "number": "62309",
+      "title": "Container Registry UI: Filter lists"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/issues/62308",
+      "repo": "GitLab Community Edition",
+      "number": "62308",
+      "title": "Docs feedback: Using variable interpolation in .gitlab-ci.yml doesn't work"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/issues/62307",
+      "repo": "GitLab Community Edition",
+      "number": "62307",
+      "title": "Download a release asset from GitLab via curl redirects to login page"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/issues/62306",
+      "repo": "GitLab Community Edition",
+      "number": "62306",
+      "title": "Random 500 errors when cloning mirrored repository"
+    }
+  ]
+}

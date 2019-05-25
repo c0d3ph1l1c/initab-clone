@@ -1,0 +1,64 @@
+{
+  "requests": [
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/28737",
+      "repo": "GitLab Community Edition",
+      "number": "28737",
+      "title": "Geo - Remove support for using Geo with an installation from source"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/28736",
+      "repo": "GitLab Community Edition",
+      "number": "28736",
+      "title": "Serve visual review toolbar script with Webpack"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/28735",
+      "repo": "GitLab Community Edition",
+      "number": "28735",
+      "title": "add postgres version to subsequent helm deploys"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/28734",
+      "repo": "GitLab Community Edition",
+      "number": "28734",
+      "title": "Add warning about CI traces when enabling S3"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/28732",
+      "repo": "GitLab Community Edition",
+      "number": "28732",
+      "title": "Add Object.entries polyfill for IE11 compatibility"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/28730",
+      "repo": "GitLab Community Edition",
+      "number": "28730",
+      "title": "Fix search dropdown not closing on blur if empty"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/28729",
+      "repo": "GitLab Community Edition",
+      "number": "28729",
+      "title": "Add high level component overview back to architecture page"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/28727",
+      "repo": "GitLab Community Edition",
+      "number": "28727",
+      "title": "Jestify some specs that start with \"A\""
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/28725",
+      "repo": "GitLab Community Edition",
+      "number": "28725",
+      "title": "CE port of Move EE specific lines in API::Issues"
+    },
+    {
+      "link": "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/28724",
+      "repo": "GitLab Community Edition",
+      "number": "28724",
+      "title": "Add snowplow haml attr helper"
+    }
+  ]
+}

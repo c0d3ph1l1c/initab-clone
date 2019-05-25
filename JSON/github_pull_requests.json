@@ -1,0 +1,64 @@
+{
+  "requests": [
+    {
+      "link": "https://github.com/GoogleChrome/puppeteer/pull/4461",
+      "repo": "GoogleChrome/puppeteer",
+      "number": "4461",
+      "title": "docs: clarify when requestfailed event is emitted by mattzeunert"
+    },
+    {
+      "link": "https://github.com/GoogleChrome/puppeteer/pull/4459",
+      "repo": "GoogleChrome/puppeteer",
+      "number": "4459",
+      "title": "Styled js code blocks in README where missing by amerikan"
+    },
+    {
+      "link": "https://github.com/GoogleChrome/puppeteer/pull/4440",
+      "repo": "GoogleChrome/puppeteer",
+      "number": "4440",
+      "title": "chore(examples): Add wait for custom event by mflodin"
+    },
+    {
+      "link": "https://github.com/GoogleChrome/puppeteer/pull/4380",
+      "repo": "GoogleChrome/puppeteer",
+      "number": "4380",
+      "title": "fix: Request intercept response with multiple headers by jake314159"
+    },
+    {
+      "link": "https://github.com/GoogleChrome/puppeteer/pull/4415",
+      "repo": "GoogleChrome/puppeteer",
+      "number": "4415",
+      "title": "feat(launcher): add 'detached' option to launch by CirroStorm"
+    },
+    {
+      "link": "https://github.com/apollographql/graphql-tag/pull/258",
+      "repo": "apollographql/graphql-tag",
+      "number": "258",
+      "title": "(refactor) - source code to ts by JoviDeCroock"
+    },
+    {
+      "link": "https://github.com/apollographql/graphql-tag/pull/257",
+      "repo": "apollographql/graphql-tag",
+      "number": "257",
+      "title": "Allow fragments to be imported by name when using the webpack loader by dobesv"
+    },
+    {
+      "link": "https://github.com/apollographql/graphql-tag/pull/256",
+      "repo": "apollographql/graphql-tag",
+      "number": "256",
+      "title": "Don't require this.cacheable to be available in loader by dobesv"
+    },
+    {
+      "link": "https://github.com/apollographql/graphql-tag/pull/247",
+      "repo": "apollographql/graphql-tag",
+      "number": "247",
+      "title": "Spreadable fragments by GreenGremlin"
+    },
+    {
+      "link": "https://github.com/apollographql/graphql-tag/pull/246",
+      "repo": "apollographql/graphql-tag",
+      "number": "246",
+      "title": "Cleaning up the README a bit by GreenGremlin"
+    }
+  ]
+}
